@@ -24,10 +24,10 @@ var logo = new UI.Image({
   size: new Vector2(144,40),
   image: 'images/cinematik_logo.png'
 });
-var text_2014 = new UI.Text({
+var text_2015 = new UI.Text({
   position: new Vector2(0, 65),
   size: new Vector2(144, 30),
-  text: "2014",
+  text: "2015",
   font: 'gothic-28-bold',
   color: 'white',
   textAlign: 'center'
@@ -41,7 +41,7 @@ var text_loading = new UI.Text({
   textAlign: 'center'
 });
 splashWindow.add(logo);
-splashWindow.add(text_2014);
+splashWindow.add(text_2015);
 splashWindow.add(text_loading);
 splashWindow.show();
 
