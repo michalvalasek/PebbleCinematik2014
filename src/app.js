@@ -13,6 +13,16 @@ var ajax = require('ajax');
 var API_URL = 'http://cinematik-2014.herokuapp.com';
 var EVENTS_LIMIT = 10;
 
+// subscribe to the Timeline pins
+Pebble.timelineSubscribe('cinematik', 
+  function () { 
+    console.log('Subscribed to cinematik pins');
+  }, 
+  function (errorString) { 
+    console.log('Error subscribing to topic: ' + errorString);
+  }
+);
+
 // Show splash screen while waiting for data
 var splashWindow = new UI.Window({
   backgroundColor: 'black',

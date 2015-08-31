@@ -4,7 +4,7 @@
         ""
     ],
     "companyName": "michal.valasek@gmail.com",
-    "longName": "Program festivalu Cinematik",
+    "longName": "Cinematik 2015",
     "projectType": "pebblejs",
     "resources": {
         "media": [
@@ -41,11 +41,13 @@
             }
         ]
     },
+    "sdkVersion": "3",
     "shortName": "Cinematik",
     "uuid": "64a8d2ed-40fc-413f-b552-1a6eb8d5de70",
     "versionCode": 1,
-    "versionLabel": "1.1",
+    "versionLabel": "1.4",
     "watchapp": {
+        "hiddenApp": false,
         "watchface": false
     }
 }
